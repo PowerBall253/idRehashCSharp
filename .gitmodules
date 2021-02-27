@@ -1,0 +1,3 @@
+[submodule "Farmhash.Sharp"]
+	path = Farmhash.Sharp
+	url = https://github.com/nickbabcock/Farmhash.Sharp
