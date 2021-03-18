@@ -68,7 +68,7 @@ namespace idRehash
 
             for (int i = 0; i < files.Length; i++)
             {
-                if (Path.GetExtension(files[i]) == ".resources" & Path.GetFileName(files[i]) != "meta.resources")
+                if (Path.GetExtension(files[i]) == ".resources" && Path.GetFileName(files[i]) != "meta.resources" && Path.GetFileName(files[i]) != "tutorial_demons.resources")
                     resourceFiles.Add(files[i]);
             }
             return resourceFiles;
